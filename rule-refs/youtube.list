@@ -167,7 +167,7 @@ DOMAIN-SUFFIX,youtube.co.cr
 DOMAIN-SUFFIX,youtube.co.at
 DOMAIN-SUFFIX,youtube.co.ae
 DOMAIN-SUFFIX,youtube.co.nz
-redirector.c.youtubeeducation.com
+DOMAIN,redirector.c.youtubeeducation.com
 DOMAIN-SUFFIX,admob.com
 DOMAIN-SUFFIX,ads.youtube.com
 DOMAIN-SUFFIX,ggpht.com
