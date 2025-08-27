@@ -1,3 +1,6 @@
+DOMAIN-KEYWORD,docker
+DOMAIN-KEYWORD,github
+Domain-SUFFIX,docker.io
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io
 DOMAIN,github-cloud.s3.amazonaws.com
