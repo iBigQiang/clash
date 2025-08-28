@@ -5,25 +5,25 @@
 
 # === Core Google Services (Specific) ===
 # Note: Excluding AI-related domains like ai.google.dev, deepmind.google, etc.
-clients1.google.com
-clients2.google.com
-clients3.google.com
-clients4.google.com
-clients5.google.com
-clients6.google.com
-pki.google.com
-alt*.mtalk.google.com
-mtalk.google.com
-dl.google.com
-dl.l.google.com
-update.google.com
-tools.google.com
+DOMAIN-SUFFIX,clients1.google.com
+DOMAIN-SUFFIX,clients2.google.com
+DOMAIN-SUFFIX,clients3.google.com
+DOMAIN-SUFFIX,clients4.google.com
+DOMAIN-SUFFIX,clients5.google.com
+DOMAIN-SUFFIX,clients6.google.com
+DOMAIN-SUFFIX,pki.google.com
+DOMAIN-SUFFIX,alt*.mtalk.google.com
+DOMAIN-SUFFIX,mtalk.google.com
+DOMAIN-SUFFIX,dl.google.com
+DOMAIN-SUFFIX,dl.l.google.com
+DOMAIN-SUFFIX,update.google.com
+DOMAIN-SUFFIX,tools.google.com
 # safebrowsing.googleapis.com - Commented out as it's part of googleapis.com
-safebrowsing-cache.google.com
-www.gstatic.com
-ssl.gstatic.com
-fonts.gstatic.com
-csi.gstatic.com
+DOMAIN-SUFFIX,safebrowsing-cache.google.com
+DOMAIN-SUFFIX,www.gstatic.com
+DOMAIN-SUFFIX,ssl.gstatic.com
+DOMAIN-SUFFIX,fonts.gstatic.com
+DOMAIN-SUFFIX,csi.gstatic.com
 
 # === Google Apps & Services ===
 DOMAIN-SUFFIX,appspot.com
@@ -42,13 +42,6 @@ DOMAIN-SUFFIX,googleadapis.com
 DOMAIN-SUFFIX,googleapps.com
 DOMAIN-SUFFIX,googleblog.com
 DOMAIN-SUFFIX,google.cn
-# Explicitly excluded AI domains to prevent conflicts:
-# - ai.google.dev
-# - deepmind.google
-# - gemini.google.com
-# - bard.google.com
-# - aistudio.google.com
-# - generativelanguage.googleapis.com
 DOMAIN-SUFFIX,googledomains.com
 DOMAIN-SUFFIX,googledrive.com
 DOMAIN-SUFFIX,googleearth.com
@@ -68,20 +61,9 @@ DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,tensorflow.org
 DOMAIN-SUFFIX,waymo.com
 DOMAIN-SUFFIX,waze.com
-# wear.googleapis.com - Commented out as it's part of googleapis.com
-# withgoogle.com - Potentially used by AI services, commented out
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-
-# === Other specific domains from original list ===
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,android.com
-# g.co - Used by Google for URL shortening, potentially including AI services
 DOMAIN-SUFFIX,goo.gl
-# gstatic.com - Used by AI services for static content
 DOMAIN-SUFFIX,waymo.com
-
-# IP-based access for core services if needed
-# 移除 Google DNS IP，避免与 AI 服务冲突
-# IP-CIDR,8.8.8.8/32,no-resolve
-# IP-CIDR,8.8.4.4/32,no-resolve
