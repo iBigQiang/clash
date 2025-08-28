@@ -54,7 +54,6 @@ DOMAIN-SUFFIX,googlesource.com
 DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,googletagservices.com
 DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
@@ -64,10 +63,7 @@ DOMAIN-SUFFIX,waymo.com
 DOMAIN-SUFFIX,waze.com
 DOMAIN-SUFFIX,wear.googleapis.com
 DOMAIN-SUFFIX,withgoogle.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com # translated from .google
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
 # === Other specific domains from original list ===
 DOMAIN-SUFFIX,1e100.net
