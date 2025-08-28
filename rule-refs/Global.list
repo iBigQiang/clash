@@ -9914,7 +9914,8 @@ DOMAIN-SUFFIX,google.com.vn
 DOMAIN-SUFFIX,google.cv
 DOMAIN-SUFFIX,google.cz
 DOMAIN-SUFFIX,google.de
-DOMAIN-SUFFIX,google.dev
+# 排除AI相关域名，避免与AI策略组冲突
+# DOMAIN-SUFFIX,google.dev
 DOMAIN-SUFFIX,google.dj
 DOMAIN-SUFFIX,google.dk
 DOMAIN-SUFFIX,google.dm

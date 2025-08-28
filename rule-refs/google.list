@@ -389,7 +389,8 @@ mtalk4.google.com
 +.google-access.net
 +.google-syndication.com
 +.google.berlin
-+.google.dev
+# 排除AI相关域名，避免与AI策略组冲突
+# +.google.dev
 +.google.net
 +.google.org
 +.google.ventures
