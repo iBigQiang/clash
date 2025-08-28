@@ -1,13 +1,9 @@
 # Gemini and Google AI Specific Domains
 # Last Updated: 2024-05-25
-# Added core Google domains to ensure consistent routing for AI services.
+# Optimized: Removed core Google domains to prevent conflicts with non-AI services
 
-# === Core Google Dependencies (for Authentication & APIs) ===
+# === Authentication (required for AI services) ===
 DOMAIN-SUFFIX,accounts.google.com
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,g.co
 
 # === Gemini & Bard Specific Domains ===
 DOMAIN-KEYWORD,gemini

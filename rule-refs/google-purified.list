@@ -1,9 +1,10 @@
 # Google Purified List (Optimized to avoid AI conflicts)
 # Last Updated: 2024-05-24
 # Removed: +.google, +.googleapis.com, +.deepmind.com to prevent conflicts.
+# Updated: Explicitly exclude AI-related domains
 
 # === Core Google Services (Specific) ===
-google.com
+# Note: Excluding AI-related domains like ai.google.dev, deepmind.google, etc.
 clients1.google.com
 clients2.google.com
 clients3.google.com
@@ -17,7 +18,7 @@ dl.google.com
 dl.l.google.com
 update.google.com
 tools.google.com
-safebrowsing.googleapis.com
+# safebrowsing.googleapis.com - Commented out as it's part of googleapis.com
 safebrowsing-cache.google.com
 www.gstatic.com
 ssl.gstatic.com
@@ -41,8 +42,13 @@ DOMAIN-SUFFIX,googleadapis.com
 DOMAIN-SUFFIX,googleapps.com
 DOMAIN-SUFFIX,googleblog.com
 DOMAIN-SUFFIX,google.cn
-# 排除AI相关域名，避免与AI策略组冲突
-# DOMAIN-SUFFIX,google.dev
+# Explicitly excluded AI domains to prevent conflicts:
+# - ai.google.dev
+# - deepmind.google
+# - gemini.google.com
+# - bard.google.com
+# - aistudio.google.com
+# - generativelanguage.googleapis.com
 DOMAIN-SUFFIX,googledomains.com
 DOMAIN-SUFFIX,googledrive.com
 DOMAIN-SUFFIX,googleearth.com
@@ -62,17 +68,17 @@ DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,tensorflow.org
 DOMAIN-SUFFIX,waymo.com
 DOMAIN-SUFFIX,waze.com
-DOMAIN-SUFFIX,wear.googleapis.com
-DOMAIN-SUFFIX,withgoogle.com
+# wear.googleapis.com - Commented out as it's part of googleapis.com
+# withgoogle.com - Potentially used by AI services, commented out
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
 # === Other specific domains from original list ===
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,android.com
-DOMAIN-SUFFIX,g.co
+# g.co - Used by Google for URL shortening, potentially including AI services
 DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,gstatic.com
+# gstatic.com - Used by AI services for static content
 DOMAIN-SUFFIX,waymo.com
 
 # IP-based access for core services if needed
