@@ -75,5 +75,6 @@ DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,waymo.com
 
 # IP-based access for core services if needed
-IP-CIDR,8.8.8.8/32,no-resolve
-IP-CIDR,8.8.4.4/32,no-resolve
+# 移除 Google DNS IP，避免与 AI 服务冲突
+# IP-CIDR,8.8.8.8/32,no-resolve
+# IP-CIDR,8.8.4.4/32,no-resolve
