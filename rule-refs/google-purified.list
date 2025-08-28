@@ -41,7 +41,8 @@ DOMAIN-SUFFIX,googleadapis.com
 DOMAIN-SUFFIX,googleapps.com
 DOMAIN-SUFFIX,googleblog.com
 DOMAIN-SUFFIX,google.cn
-DOMAIN-SUFFIX,google.dev
+# 排除AI相关域名，避免与AI策略组冲突
+# DOMAIN-SUFFIX,google.dev
 DOMAIN-SUFFIX,googledomains.com
 DOMAIN-SUFFIX,googledrive.com
 DOMAIN-SUFFIX,googleearth.com
