@@ -1,0 +1,31 @@
+# Gemini 和 Google AI 服务
+# 此列表仅包含 Google AI/ML 服务的核心域名，以防止冲突
+
+# === 关键词 ===
+# Gemini相关域名的广泛匹配
+DOMAIN-KEYWORD,gemini
+
+# === 核心人工智能平台和服务 ===
+# 访问 Gemini、AI Studio 和相关研究平台的主要域名。
+DOMAIN-SUFFIX,ai.google
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,colab.research.google.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,kaggle.com
+DOMAIN-SUFFIX,research.google
+
+# === 特定 API 端点 ===
+# 用于身份验证和 AI 模型功能的必要域名
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,aistudio-pa.clients6.google.com
+DOMAIN-SUFFIX,gemini-pa.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+# === 内容和依赖项 ===
+# 用户内容、数据和应用程序托管所需的域名
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,pki.google.com
