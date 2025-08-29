@@ -29,3 +29,15 @@ DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 # 用户内容、数据和应用程序托管所需的域名
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,pki.google.com
+
+# === 从日志分析中添加的依赖项 (2024-08-29) ===
+# 为了解决 aistudio.google.com 跨区域访问问题
+DOMAIN-SUFFIX,signaler-pa.clients6.google.com
+DOMAIN-SUFFIX,maps.googleapis.com
+DOMAIN-SUFFIX,waa-pa.clients6.google.com
+DOMAIN-SUFFIX,ogads-pa.clients6.google.com
+DOMAIN-SUFFIX,www.googletagmanager.com
+DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
+DOMAIN-SUFFIX,www.google-analytics.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,mtalk.google.com
