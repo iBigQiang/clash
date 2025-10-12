@@ -62,6 +62,18 @@ DOMAIN-SUFFIX,vjm.cc
 DOMAIN-SUFFIX,pijin.net
 DOMAIN-SUFFIX,nlffa.com
 
+#强子家里局域网服务站
+DOMAIN-SUFFIX,nas.hitu.me
+DOMAIN-SUFFIX,bt.hitu.me
+DOMAIN-SUFFIX,docker.hitu.me
+DOMAIN-SUFFIX,fastgpt.hitu.me
+DOMAIN-SUFFIX,home.hitu.me
+DOMAIN-SUFFIX,n8n.hitu.me
+DOMAIN-SUFFIX,newapi.hitu.me
+DOMAIN-SUFFIX,op.hitu.me
+DOMAIN-SUFFIX,tv.hitu.me
+DOMAIN-SUFFIX,wxrss.hitu.me
+
 #强子常用产品站
 DOMAIN-SUFFIX,guaqi.com
 DOMAIN-SUFFIX,7b2.com
