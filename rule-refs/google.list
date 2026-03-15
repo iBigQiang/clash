@@ -6,7 +6,6 @@
 # === Keywords (Broadest Match) ===
 DOMAIN-KEYWORD,chrome
 DOMAIN-KEYWORD,hangout
-
 # === Core Infrastructure & Services (The Essentials) ===
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,android.com
@@ -30,14 +29,12 @@ DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,widevine.com
-
 # === Ads & Analytics ===
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googletagmanager.com
-
 # === Other Consumer Products ===
 DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,blogspot.com
@@ -50,7 +47,6 @@ DOMAIN-SUFFIX,get.app
 DOMAIN-SUFFIX,nest.com
 DOMAIN-SUFFIX,waze.com
 DOMAIN-SUFFIX,withgoogle.com
-
 # === Critical Subdomains & Endpoints ===
 DOMAIN,dl.google.com
 DOMAIN,dl-ssl.google.com
@@ -66,7 +62,6 @@ DOMAIN-SUFFIX,mtalk.google.com
 DOMAIN-SUFFIX,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,update.googleapis.com
 DOMAIN-SUFFIX,wear.googleapis.com
-
 # === International TLDs (Catch-All for Regions) ===
 DOMAIN-SUFFIX,google.ad
 DOMAIN-SUFFIX,google.ae
@@ -257,3 +252,80 @@ DOMAIN-SUFFIX,google.tt
 DOMAIN-SUFFIX,google.vg
 DOMAIN-SUFFIX,google.vu
 DOMAIN-SUFFIX,google.ws
+DOMAIN-SUFFIX,google-access.net
+DOMAIN-SUFFIX,google-analytics-cn.com
+DOMAIN-SUFFIX,google-syndication.com
+DOMAIN-SUFFIX,google.berlin
+DOMAIN-SUFFIX,google.co
+DOMAIN-SUFFIX,google.com.nf
+# 排除AI相关域名，避免与AI策略组冲突
+# DOMAIN-SUFFIX,google.dev
+DOMAIN-SUFFIX,google.gp
+DOMAIN-SUFFIX,google.tk
+DOMAIN-SUFFIX,google.ventures
+DOMAIN-SUFFIX,googleacquisitionmigration.com
+DOMAIN-SUFFIX,googleadapis.com
+DOMAIN-SUFFIX,googleadservices-cn.com
+DOMAIN-SUFFIX,googleanalytics.com
+DOMAIN-SUFFIX,googleapis-cn.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleapps-cn.com
+DOMAIN-SUFFIX,googleapps.com
+DOMAIN-SUFFIX,googlearth.com
+DOMAIN-SUFFIX,googleartproject.com
+DOMAIN-SUFFIX,googleblog.com
+DOMAIN-SUFFIX,googlebot.com
+DOMAIN-SUFFIX,googlecapital.com
+DOMAIN-SUFFIX,googlecert.net
+DOMAIN-SUFFIX,googlechinawebmaster.com
+DOMAIN-SUFFIX,googlecode.com
+DOMAIN-SUFFIX,googlecompare.co.uk
+DOMAIN-SUFFIX,googledanmark.com
+DOMAIN-SUFFIX,googledomains.com
+DOMAIN-SUFFIX,googledrive.com
+DOMAIN-SUFFIX,googlee.com
+DOMAIN-SUFFIX,googleearth.com
+DOMAIN-SUFFIX,googlefiber.com
+DOMAIN-SUFFIX,googlefiber.net
+DOMAIN-SUFFIX,googlefinland.com
+DOMAIN-SUFFIX,googleflights-cn.net
+DOMAIN-SUFFIX,googlegroups.com
+DOMAIN-SUFFIX,googlehosted.com
+DOMAIN-SUFFIX,googleideas.com
+DOMAIN-SUFFIX,googleinsidesearch.com
+DOMAIN-SUFFIX,googlelabs.com
+DOMAIN-SUFFIX,googlemail.com
+DOMAIN-SUFFIX,googlemaps.com
+DOMAIN-SUFFIX,googlemashups.com
+DOMAIN-SUFFIX,googleoptimize-cn.com
+DOMAIN-SUFFIX,googleoptimize.com
+DOMAIN-SUFFIX,googlepagecreator.com
+DOMAIN-SUFFIX,googlephotos.com
+DOMAIN-SUFFIX,googleplex.com
+DOMAIN-SUFFIX,googleplus.com
+DOMAIN-SUFFIX,googlescholar.com
+DOMAIN-SUFFIX,googlescholar.comusa
+DOMAIN-SUFFIX,googlesile.com
+DOMAIN-SUFFIX,googlestore.com
+DOMAIN-SUFFIX,googlesverige.com
+DOMAIN-SUFFIX,googlesyndication-cn.com
+DOMAIN-SUFFIX,googletagmanager-cn.com
+DOMAIN-SUFFIX,googletagservices-cn.com
+DOMAIN-SUFFIX,googletraveladservices-cn.com
+DOMAIN-SUFFIX,googletraveladservices.com
+DOMAIN-SUFFIX,googlevads-cn.com
+DOMAIN-SUFFIX,googleventures.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,googleweblight.com
+DOMAIN-SUFFIX,googlezip.net
+DOMAIN-SUFFIX,accounts.googlers.com
+DOMAIN-SUFFIX,adgoogle.net
+DOMAIN-SUFFIX,agoogleaday.com
+DOMAIN-SUFFIX,avail.googleflights.net
+DOMAIN-SUFFIX,qpx.googleflights.net
+DOMAIN-SUFFIX,clickserver.googleads.com
+DOMAIN-SUFFIX,igoogle.com
+DOMAIN-SUFFIX,thegooglestore.com
+DOMAIN-SUFFIX,thinkwithgoogle.com
+DOMAIN-SUFFIX,up.gcp.googlers.com
+DOMAIN-SUFFIX,ggoogle.com
