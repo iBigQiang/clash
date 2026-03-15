@@ -64,10 +64,12 @@ DOMAIN-SUFFIX,nlffa.com
 
 #强子国际BA独立站
 DOMAIN-SUFFIX,besttoolshub.com
+DOMAIN-SUFFIX,yrgs.org
 IP-CIDR,129.226.213.36/32
 IP-CIDR,43.160.253.67/32
 
 #强子家里局域网服务站
+DOMAIN-SUFFIX,hitu.me
 DOMAIN-SUFFIX,nas.hitu.me
 DOMAIN-SUFFIX,bt.hitu.me
 DOMAIN-SUFFIX,docker.hitu.me
