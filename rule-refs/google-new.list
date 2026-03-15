@@ -5,9 +5,6 @@
 
 # === Keywords (Broadest Match) ===
 DOMAIN-KEYWORD,chrome
-DOMAIN-KEYWORD,gle
-DOMAIN-KEYWORD,goo
-DOMAIN-KEYWORD,goog
 DOMAIN-KEYWORD,hangout
 
 # === Core Infrastructure & Services (The Essentials) ===
