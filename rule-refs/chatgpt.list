@@ -1,17 +1,42 @@
+# ChatGPT / OpenAI 专属优化规则
+# 优先级：高 (需配合高质量解锁节点)
+
+# === 关键词广度匹配 (防止错漏边缘子域名) ===
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
+
+# === OpenAI 核心主域名 ===
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,sora.com
+
+# === 静态资源与用户上传内容 (极重要，否则不显示头像、无法上传附件) ===
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# === 高级语音模式 (WebRTC / LiveKit 依赖) ===
+# 用于 ChatGPT 移动端 App 的实时语音对话功能
 DOMAIN-SUFFIX,livekit.cloud
-DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
-DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,livekit.run
+
+# === 核心 Auth 与验证码防风控体系 (必加，否则无法登录) ===
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,openai-api.arkoselabs.com
+DOMAIN-SUFFIX,openai.auth0.com
+
+# === 前端功能、遥测与分析 API ===
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+
+# === 微软 Azure / Cloudflare / 第三方专属 CDN 后端 ===
+# (处理大文件存储、CDN加速、图片处理等)
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN-SUFFIX,openaicomproductionae4b.blob.core.windows.net
 DOMAIN-SUFFIX,production-openaicom-storage.azureedge.net
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
-DOMAIN-SUFFIX,chatango.com
-DOMAIN-SUFFIX,chatgptvideo.xyz
-DOMAIN-SUFFIX,chatgptvideob.buzz
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+DOMAIN-SUFFIX,openaicom.imgix.net
