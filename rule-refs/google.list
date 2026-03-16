@@ -1,41 +1,52 @@
-# Google 优化规则集
-# 最后更新: 2024-05-24
-# 从 google-purified.list 和 google-new.list 合并并去重。
-# 优化以保留基本的 Google 服务，同时避免冲突。
+# 第三层：Google 通用基础服务与兜底
+# 优先级: 低 (必须放在最下方)
+# 用途: 谷歌日常搜索、Gmail、网盘文字、通用网页请求
 
-# === Keywords (Broadest Match) ===
+# === Keywords ===
 DOMAIN-KEYWORD,chrome
 DOMAIN-KEYWORD,hangout
-# === Core Infrastructure & Services (The Essentials) ===
+
+# === 核心基础设施与云服务 (已移除大流量视频 CDN) ===
 DOMAIN-SUFFIX,1e100.net
 DOMAIN-SUFFIX,android.com
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,firebaseapp.com
 DOMAIN-SUFFIX,g.cn
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,g.page
-DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gcp.gvt2.com
+DOMAIN-SUFFIX,gcr.io
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.dev
 DOMAIN-SUFFIX,google.net
 DOMAIN-SUFFIX,google.org
 DOMAIN-SUFFIX,googlecnapps.cn
-DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,googleplay.com
 DOMAIN-SUFFIX,googlesource.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,gstatic.cn
 DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,pki.google.com
+DOMAIN-SUFFIX,pkg.dev
+DOMAIN-SUFFIX,recaptcha.com
 DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,widevine.com
-# === Ads & Analytics ===
+
+# === 通用 API 后端 (未被 AI 和 YouTube 捕获的剩余流量) ===
+DOMAIN-SUFFIX,googleapis.com
+
+# === 广告、数据分析、通用前端库 ===
+DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,googleadservices.com
 DOMAIN-SUFFIX,googlesyndication.com
 DOMAIN-SUFFIX,googletagmanager.com
-# === Other Consumer Products ===
+DOMAIN-SUFFIX,material.io
+
+# === 其他消费级产品 (非高消耗) ===
+DOMAIN-SUFFIX,blog.google
 DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,blogspot.com
 DOMAIN-SUFFIX,chrome.com
@@ -47,7 +58,8 @@ DOMAIN-SUFFIX,get.app
 DOMAIN-SUFFIX,nest.com
 DOMAIN-SUFFIX,waze.com
 DOMAIN-SUFFIX,withgoogle.com
-# === Critical Subdomains & Endpoints ===
+
+# === 核心子域名端点 ===
 DOMAIN,dl.google.com
 DOMAIN,dl-ssl.google.com
 DOMAIN-SUFFIX,clients1.google.com
@@ -56,13 +68,8 @@ DOMAIN-SUFFIX,clients3.google.com
 DOMAIN-SUFFIX,clients4.google.com
 DOMAIN-SUFFIX,clients5.google.com
 DOMAIN-SUFFIX,clients6.google.com
-DOMAIN-SUFFIX,fonts.googleapis.com
-DOMAIN-SUFFIX,imasdk.googleapis.com
-DOMAIN-SUFFIX,mtalk.google.com
-DOMAIN-SUFFIX,safebrowsing.googleapis.com
-DOMAIN-SUFFIX,update.googleapis.com
-DOMAIN-SUFFIX,wear.googleapis.com
-# === International TLDs (Catch-All for Regions) ===
+
+# === 各国家/地区 TLDs (Google 通用) ===
 DOMAIN-SUFFIX,google.ad
 DOMAIN-SUFFIX,google.ae
 DOMAIN-SUFFIX,google.al
@@ -258,8 +265,8 @@ DOMAIN-SUFFIX,google-syndication.com
 DOMAIN-SUFFIX,google.berlin
 DOMAIN-SUFFIX,google.co
 DOMAIN-SUFFIX,google.com.nf
-# 排除AI相关域名，避免与AI策略组冲突
-# DOMAIN-SUFFIX,google.dev
+
+# === 已去重企业应用与杂项 ===
 DOMAIN-SUFFIX,google.gp
 DOMAIN-SUFFIX,google.tk
 DOMAIN-SUFFIX,google.ventures
@@ -267,13 +274,10 @@ DOMAIN-SUFFIX,googleacquisitionmigration.com
 DOMAIN-SUFFIX,googleadapis.com
 DOMAIN-SUFFIX,googleadservices-cn.com
 DOMAIN-SUFFIX,googleanalytics.com
-DOMAIN-SUFFIX,googleapis-cn.com
-DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleapps-cn.com
 DOMAIN-SUFFIX,googleapps.com
 DOMAIN-SUFFIX,googlearth.com
 DOMAIN-SUFFIX,googleartproject.com
-DOMAIN-SUFFIX,googleblog.com
 DOMAIN-SUFFIX,googlebot.com
 DOMAIN-SUFFIX,googlecapital.com
 DOMAIN-SUFFIX,googlecert.net
@@ -315,7 +319,6 @@ DOMAIN-SUFFIX,googletraveladservices-cn.com
 DOMAIN-SUFFIX,googletraveladservices.com
 DOMAIN-SUFFIX,googlevads-cn.com
 DOMAIN-SUFFIX,googleventures.com
-DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,googleweblight.com
 DOMAIN-SUFFIX,googlezip.net
 DOMAIN-SUFFIX,accounts.googlers.com
