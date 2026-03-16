@@ -1,11 +1,11 @@
-# 第二层：YouTube 与 Google 视频/下载 CDN
+# 第二层：YouTube 与 Google 视频/大流量下载 CDN (终极补漏版)
 # 优先级: 中 (放在 gemini 下方，google 上方)
-# 用途: 承载所有大流量消耗（油管视频、音乐、Google Play App 下载更新）
+# 用途: 承载所有大流量消耗（油管视频、音乐、纯软件下载、Google Play App 下载更新）
 
 # === 广义 YouTube 关键词 ===
 DOMAIN-KEYWORD,youtube
 
-# === 核心域名 ===
+# === 核心域名与边缘业务 ===
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube-nocookie.com
@@ -13,6 +13,9 @@ DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,youtube.tv
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubemusic.com
+DOMAIN-SUFFIX,youtubemobilesupport.com
 
 # === 谷歌大流量视频 CDN 与 商店下载 CDN (极易跑流量，必须独立) ===
 DOMAIN-SUFFIX,googlevideo.com
@@ -22,12 +25,18 @@ DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,widevine.com
 
-# === YouTube 专属 API ===
+# === 谷歌纯软件/开发者大流量下载源 (从 google.txt 移入，防止跑专线流量) ===
+DOMAIN,dl.google.com
+DOMAIN,dl-ssl.google.com
+
+# === YouTube 专属 API 与 高频流媒体统计 ===
 DOMAIN-SUFFIX,youtubei.googleapis.com
 DOMAIN-SUFFIX,youtube.googleapis.com
 DOMAIN-SUFFIX,youtubemusic.googleapis.com
+DOMAIN-SUFFIX,youtube.l.google.com
+DOMAIN-SUFFIX,video-stats.l.google.com
 
-# === 各国家/地区 TLDs (YouTube) ===
+# === 各国家/地区 TLDs (YouTube 全球域名映射) ===
 DOMAIN-SUFFIX,youtube.ae
 DOMAIN-SUFFIX,youtube.al
 DOMAIN-SUFFIX,youtube.am
