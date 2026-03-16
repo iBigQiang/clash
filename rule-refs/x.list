@@ -3,6 +3,7 @@ DOMAIN-SUFFIX,x.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tellapart.com
 DOMAIN-SUFFIX,tweetdeck.com
 DOMAIN-SUFFIX,twimg.com
@@ -28,6 +29,15 @@ DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,twittercommunity.com
 DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.org
+DOMAIN-SUFFIX,twittercounter.com
+DOMAIN-SUFFIX,twitterfeed.com
+DOMAIN-SUFFIX,twittergadget.com
+DOMAIN-SUFFIX,twitterkr.com
+DOMAIN-SUFFIX,twittermail.com
+DOMAIN-SUFFIX,twitterrific.com
+DOMAIN-SUFFIX,twittertim.es
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-KEYWORD,twitter
 IP-CIDR,192.133.76.0/22,no-resolve
 IP-CIDR,199.59.148.0/22,no-resolve
