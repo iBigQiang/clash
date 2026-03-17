@@ -41,8 +41,6 @@ DOMAIN-SUFFIX,tuning-pa.googleapis.com
 DOMAIN-SUFFIX,notebooklm-pa.googleapis.com
 DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
 DOMAIN-SUFFIX,maps.googleapis.com
-DOMAIN-SUFFIX,googleapis-cn.com
-DOMAIN-SUFFIX,googleapis.cn
 
 # === AI Studio前端与跨域依赖 ===
 DOMAIN-SUFFIX,aistudio-pa.clients6.google.com

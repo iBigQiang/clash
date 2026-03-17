@@ -1,8 +1,8 @@
-DOMAIN,cdn.usefathom.com
-DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN,cdn.usefathom.com
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,hcaptcha.com
-DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
