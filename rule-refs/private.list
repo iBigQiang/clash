@@ -11,12 +11,15 @@ DOMAIN-SUFFIX,miwifi.com
 DOMAIN-SUFFIX,miwifi.com
 DOMAIN-KEYWORD,internal
 DOMAIN-KEYWORD,localdomain
-DOMAIN-KEYWORD,example
-DOMAIN-KEYWORD,invalid
 DOMAIN-KEYWORD,localhost
-DOMAIN-KEYWORD,test
-DOMAIN-KEYWORD,local
-DOMAIN-KEYWORD,lan
+# 注意：避免使用 DOMAIN-KEYWORD,lan / local / test / example / invalid 这类“关键字匹配”
+# 它们会误伤公网域名（例如 generative**lan**guage.googleapis.com 会命中 lan）。
+# 这里改为仅匹配保留 TLD（.lan/.local/.test/.example/.invalid）。
+DOMAIN-SUFFIX,example
+DOMAIN-SUFFIX,invalid
+DOMAIN-SUFFIX,test
+DOMAIN-SUFFIX,local
+DOMAIN-SUFFIX,lan
 DOMAIN-KEYWORD,zte.home
 DOMAIN-KEYWORD,my.router
 DOMAIN-SUFFIX,ts.net
