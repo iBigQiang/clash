@@ -181,9 +181,7 @@ proxy-groups:
   - {name: Crypto, <<: *default}
   - {name: Test, <<: *default}
   - {name: Block, <<: *default}
-  - {name: 强外, <<: *default}
   - {name: 国外, <<: *default}
-  - {name: 强内, <<: *default}
   - {name: 国内, <<: *default}
   - {name: 其他, <<: *default}  
 
@@ -546,12 +544,10 @@ rules:
   - RULE-SET,Nintend_Domain,Games
 
   # 1.10 全局代理域名
-  - RULE-SET,强外_Domain,国外
   - RULE-SET,Proxy_Domain,国外
   - RULE-SET,Globe_Domain,国外
 
   # 1.11 国内直连域名
-  - RULE-SET,强内_Domain,国内
   - RULE-SET,Direct_Domain,国内
   - RULE-SET,China_Domain,国内
 
@@ -579,8 +575,6 @@ rule-anchor:
 rule-providers:
   TEST_Domain: {<<: *class,  url: "https://edgeone.gh-proxy.com/https://raw.githubusercontent.com/iBigQiang/clash/main/rule-refs/Check.list"}
   Twitter_Domain: {<<: *class,  url: "https://edgeone.gh-proxy.com/https://raw.githubusercontent.com/iBigQiang/clash/main/rule-refs/x.list"}
-  强内_Domain: {<<: *class,  url: "https://edgeone.gh-proxy.com/https://raw.githubusercontent.com/iBigQiang/clash/main/rule-refs/qiang-cn.list"}
-  强外_Domain: {<<: *class,  url: "https://edgeone.gh-proxy.com/https://raw.githubusercontent.com/iBigQiang/clash/main/rule-refs/qiang-abroad.list"}
   OtherAI_Domain: {<<: *class,  url: "https://gh-proxy.com/https://raw.githubusercontent.com/iBigQiang/clash/main/rule-refs/OtherAI.list"}
   ChatGPT_Domain: {<<: *class,  url: "https://edgeone.gh-proxy.com/https://raw.githubusercontent.com/iBigQiang/clash/main/rule-refs/chatgpt.list"}
   Claude_Domain: {<<: *class,  url: "https://edgeone.gh-proxy.com/https://raw.githubusercontent.com/iBigQiang/clash/main/rule-refs/Claude.list"}
