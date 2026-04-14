@@ -9,7 +9,6 @@ DOMAIN-SUFFIX,npm.community
 DOMAIN-SUFFIX,gh.io
 DOMAIN-SUFFIX,ghcr.io
 DOMAIN-SUFFIX,git.io
-DOMAIN-SUFFIX,github.ai
 DOMAIN-SUFFIX,github.blog
 DOMAIN-SUFFIX,github.community
 DOMAIN-SUFFIX,github.dev
@@ -27,7 +26,6 @@ DOMAIN-SUFFIX,opensource.guide
 DOMAIN-SUFFIX,repo.new
 DOMAIN-SUFFIX,thegithubshop.com
 DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,npmjs.com
 DOMAIN-SUFFIX,vscode.dev
 DOMAIN-SUFFIX,visualstudio.com

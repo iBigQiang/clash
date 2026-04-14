@@ -1,16 +1,41 @@
+# [核心域名]
+DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,anthropic.com
-DOMAIN,cdn.usefathom.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudeusercontent.com
+
+# [CDN 与基础设施]
+DOMAIN,cdn.anthropic.com
+DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN,servd-anthropic-website.b-cdn.net
+
+# [认证与内容]
+DOMAIN,anthropic.auth0.com
+DOMAIN,anthropic-com.ghost.io
+
+# [监控与风控]
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,datadoghq.com
+DOMAIN,browser-intake-us5-datadoghq.com
+DOMAIN-KEYWORD,datadog
+DOMAIN-KEYWORD,sift
+
+# [第三方组件 / 客服 / 验证]
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN,cdn.usefathom.com
+DOMAIN-SUFFIX,hcaptcha.com
 DOMAIN-SUFFIX,skilljar.com
 DOMAIN-SUFFIX,modelcontextprotocol.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,facebook.net
+
+# [附属生态]
 DOMAIN-SUFFIX,snapcraft.io
 DOMAIN-SUFFIX,ubuntu.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,datadoghq.com
+
+# [IP 段与 ASN 兜底]
+IP-CIDR,160.79.104.0/21,no-resolve
+IP-CIDR6,2607:6BC0::/32,no-resolve
+IP-ASN,399358,no-resolve
