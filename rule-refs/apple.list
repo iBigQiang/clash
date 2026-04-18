@@ -1,5 +1,8 @@
 # [Apple 全球 / 海外主业务域名]
 # 说明：此文件用于 Apple 全球或海外业务分流，保留上游规则源中的 Apple 相关域名与附属域名。
+# [Apple Relay / Private Relay 特例]
+# 说明：该域名本身挂在 Cloudflare 之下，若不显式列出，会被 Global.list 中的 `cloudflare.com` 兜底到国外组。
+DOMAIN,apple-relay.cloudflare.com
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.be
 DOMAIN-SUFFIX,apple.bg
