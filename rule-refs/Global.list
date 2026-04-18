@@ -35,7 +35,6 @@ DOMAIN,cdn.js7k.com
 DOMAIN,cisco.evergage.com
 DOMAIN,clubhouse.pubnubapi.com
 DOMAIN,community.oneplus.com
-DOMAIN,courier-push-apple.com.akadns.net
 DOMAIN,crl.versign.net
 DOMAIN,databank.worldbank.org
 DOMAIN,default.exp-tas.com
@@ -78,7 +77,6 @@ DOMAIN,practivate.adobe.ipp
 DOMAIN,practivate.adobe.newoa
 DOMAIN,practivate.adobe.ntp
 DOMAIN,public-us-pingsx.api.clonoth.com
-DOMAIN,push-apple.com.akadns.net
 DOMAIN,qualcomm.sc.omtrdc.net
 DOMAIN,rss.4040940.xyz
 DOMAIN,rss.datuan.dev
@@ -111,7 +109,6 @@ DOMAIN,vsmarketplacebadge.apphb.com
 DOMAIN,wetv.qq.com
 DOMAIN,widgets.stripst.com
 DOMAIN,wrds-www.wharton.upenn.edu
-DOMAIN,www-cdn.icloud.com.akadns.net
 DOMAIN,yangzhi.app
 DOMAIN,ztedevices.com
 DOMAIN,api.waqi.info
@@ -1694,7 +1691,6 @@ DOMAIN-SUFFIX,appl-e.com
 DOMAIN-SUFFIX,appl.com
 DOMAIN-SUFFIX,appl4e.com
 DOMAIN-SUFFIX,appla.com
-DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-darwin.com
 DOMAIN-SUFFIX,apple-darwin.net
 DOMAIN-SUFFIX,apple-darwin.org
@@ -1732,7 +1728,6 @@ DOMAIN-SUFFIX,apple.co.mz
 DOMAIN-SUFFIX,apple.co.nz
 DOMAIN-SUFFIX,apple.co.th
 DOMAIN-SUFFIX,apple.co.uk
-DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.com.af
 DOMAIN-SUFFIX,apple.com.au
 DOMAIN-SUFFIX,apple.com.bo
@@ -1865,7 +1860,6 @@ DOMAIN-SUFFIX,appleid-applemx.us
 DOMAIN-SUFFIX,appleid-iclou.com
 DOMAIN-SUFFIX,appleid-uk.us
 DOMAIN-SUFFIX,appleid.berlin
-DOMAIN-SUFFIX,appleid.com
 DOMAIN-SUFFIX,appleid.hamburg
 DOMAIN-SUFFIX,appleid.hk
 DOMAIN-SUFFIX,appleimac.com
@@ -1888,7 +1882,6 @@ DOMAIN-SUFFIX,applemusic.hamburg
 DOMAIN-SUFFIX,applemusic.wang
 DOMAIN-SUFFIX,applemusicconnect.com
 DOMAIN-SUFFIX,applemusicfestival.com
-DOMAIN-SUFFIX,applemx-icloud.com
 DOMAIN-SUFFIX,applenews.berlin
 DOMAIN-SUFFIX,applenews.hamburg
 DOMAIN-SUFFIX,applenews.tv
@@ -11137,11 +11130,7 @@ DOMAIN-SUFFIX,ichigocandy.com
 DOMAIN-SUFFIX,ichineseporn.com
 DOMAIN-SUFFIX,icif.ac.uk
 DOMAIN-SUFFIX,icit.ac.uk
-DOMAIN-SUFFIX,icloud-content.com
-DOMAIN-SUFFIX,icloud-isupport.com
-DOMAIN-SUFFIX,icloud-sandbox.com
 DOMAIN-SUFFIX,icloud.ch
-DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.de
 DOMAIN-SUFFIX,icloud.ee
 DOMAIN-SUFFIX,icloud.fi
@@ -23740,7 +23729,6 @@ DOMAIN-SUFFIX,wwwebay.net
 DOMAIN-SUFFIX,wwwfacebok.com
 DOMAIN-SUFFIX,wwwfacebook.com
 DOMAIN-SUFFIX,wwwhuluplus.com
-DOMAIN-SUFFIX,wwwicloud.com
 DOMAIN-SUFFIX,wwwinstagram.com
 DOMAIN-SUFFIX,wwwipodlounge.com
 DOMAIN-SUFFIX,wwwitunes.com
