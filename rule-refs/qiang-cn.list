@@ -10,6 +10,8 @@ DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,jd.com
 DOMAIN-SUFFIX,goofish.com
+DOMAIN-SUFFIX,linuxdo.org
+DOMAIN-SUFFIX,linux.do
 
 #强子国内BA独立站
 DOMAIN-SUFFIX,sunlonger.com
@@ -46,6 +48,7 @@ DOMAIN-SUFFIX,nlffa.com
 #强子国际BA独立站
 DOMAIN-SUFFIX,besttoolshub.com
 DOMAIN-SUFFIX,yrgs.org
+DOMAIN-SUFFIX,opc.tools
 IP-CIDR,129.226.213.36/32
 IP-CIDR,43.160.253.67/32
 IP-CIDR,43.160.245.26/32,DIRECT
