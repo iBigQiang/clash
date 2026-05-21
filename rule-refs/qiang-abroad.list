@@ -3,3 +3,5 @@ DOMAIN-SUFFIX,netlify.app
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-KEYWORD,github
 DOMAIN-SUFFIX,ghcr.io
+DOMAIN-SUFFIX,bigqiang.workers.dev
+DOMAIN-SUFFIX,workers.dev
