@@ -1,4 +1,8 @@
 ## 海外其他 AI 官方域名 / 国际 AI 中转与 API 平台
+## LM Studio 官方站点 / 搜索 / 更新 / 模型目录
+DOMAIN-SUFFIX,lmstudio.ai
+
+## 其他海外 AI 平台
 DOMAIN-SUFFIX,api.cerebras.ai
 DOMAIN-SUFFIX,cerebras.ai
 DOMAIN-KEYWORD,cerebras
