@@ -1,0 +1,55 @@
+# 第一层：Gemini 和 Google AI 服务
+# 优先级: 高 (必须放在最上方)
+# 用途: AI 核心服务、防止跨区报错的登录验证服务
+
+# === 关键词 ===
+DOMAIN-KEYWORD,gemini
+
+# === 核心人工智能平台、实验室与应用 ===
+DOMAIN-SUFFIX,ai.google
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,colab.research.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,idx.dev
+DOMAIN-SUFFIX,idx.google.com
+DOMAIN-SUFFIX,jules.google.com
+DOMAIN-SUFFIX,jules.google
+DOMAIN-SUFFIX,kaggle.com
+DOMAIN-SUFFIX,labs.google
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,notebooklm.google
+DOMAIN-SUFFIX,research.google
+
+# === 核心 Auth 认证 (AI 服务跨区高度依赖，全谷歌系通用登录入口) ===
+DOMAIN-SUFFIX,accounts.google.com
+
+# === AI 专属 API 端点 (精确匹配子域名) ===
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,gemini-pa.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
+DOMAIN-SUFFIX,aiplatform.googleapis.com
+DOMAIN-SUFFIX,language-pa.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,tuning-pa.googleapis.com
+DOMAIN-SUFFIX,notebooklm-pa.googleapis.com
+DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com
+DOMAIN-SUFFIX,maps.googleapis.com
+DOMAIN-SUFFIX,googleapis-cn.com
+DOMAIN-SUFFIX,googleapis.cn
+
+# === AI Studio前端与跨域依赖 ===
+DOMAIN-SUFFIX,aistudio-pa.clients6.google.com
+DOMAIN-SUFFIX,signaler-pa.clients6.google.com
+DOMAIN-SUFFIX,waa-pa.clients6.google.com
+DOMAIN-SUFFIX,ogads-pa.clients6.google.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,mtalk.google.com
+DOMAIN-SUFFIX,www.googletagmanager.com
+DOMAIN-SUFFIX,www.google-analytics.com

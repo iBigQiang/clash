@@ -38,6 +38,7 @@ DOMAIN-SUFFIX,twitterrific.com
 DOMAIN-SUFFIX,twittertim.es
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,typefully.com
 DOMAIN-KEYWORD,twitter
 IP-CIDR,192.133.76.0/22,no-resolve
 IP-CIDR,199.59.148.0/22,no-resolve
