@@ -13,6 +13,11 @@ DOMAIN-SUFFIX,wenwen-ai.com
 DOMAIN-SUFFIX,xiaomimimo.com
 DOMAIN-SUFFIX,xuedingtoken.com
 
+# APIMart.ai 渠道中国区域名
+DOMAIN-SUFFIX,apib.ai
+DOMAIN-SUFFIX,aiuxu.com
+DOMAIN-SUFFIX,aishuch.com
+
 # 国产大模型官网 / 开放平台 / 官方 API
 DOMAIN-SUFFIX,01.ai
 DOMAIN-SUFFIX,ark.cn-beijing.volces.com
