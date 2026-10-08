@@ -1,0 +1,38 @@
+# =================================================
+# Fake-IP-Filter (黑名单模式) - 优化版
+# 目标：
+# 1) 保留：国内银行/金融服务域名（你要求）
+# 2) 精简：避免把大后缀/大站点一锅端加入黑名单，保持 Fake-IP 的收益
+# 3) 兼容：局域网/时间同步/连通性检测/STUN 等易受 Fake-IP 影响的场景
+# =================================================
+
+# -----------------------------
+# 1) 局域网 / 保留域名（必留）
+# -----------------------------
+DOMAIN-SUFFIX,*.lan
+DOMAIN-SUFFIX,*.local
+DOMAIN-KEYWORD,localhost
+DOMAIN-KEYWORD,localdomain
+DOMAIN-KEYWORD,localhost
+
+# -----------------------------
+# 2) 时间同步 NTP（建议保留）
+# -----------------------------
+DOMAIN-SUFFIX,time.windows.com
+DOMAIN-SUFFIX,time.apple.com
+DOMAIN-SUFFIX,time.asia.apple.com
+DOMAIN-SUFFIX,time-ios.apple.com
+DOMAIN-SUFFIX,time1.cloud.tencent.com
+DOMAIN-SUFFIX,pool.ntp.org
+DOMAIN-SUFFIX,pool.ntp.org
+DOMAIN-SUFFIX,ntp.org
+DOMAIN-SUFFIX,ntp.org
+DOMAIN-SUFFIX,ntp.tencent.com
+
+# -----------------------------
+# 3) 系统连通性检测（建议保留）
+# -----------------------------
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
+DOMAIN-SUFFIX,connectivitycheck.gstatic.com
+DOMAIN-SUFFIX,gstatic.com

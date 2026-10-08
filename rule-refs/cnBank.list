@@ -1,0 +1,65 @@
+# =================================================
+# 国内银行及金融服务域名（按你要求：全部保留）
+# 说明：这里不做“DOMAIN-SUFFIX,cn”这种大范围匹配，专门列出金融相关后缀，避免误伤
+# =================================================
+
+# --- 大型国有银行 ---
+DOMAIN-SUFFIX,icbc.com.cn
+DOMAIN-SUFFIX,abchina.com
+DOMAIN-SUFFIX,boc.cn
+DOMAIN-SUFFIX,bankofchina.com
+DOMAIN-SUFFIX,ccb.com
+DOMAIN-SUFFIX,asia.ccb.com
+DOMAIN-SUFFIX,bankcomm.com
+DOMAIN-SUFFIX,95559.com.cn
+DOMAIN-SUFFIX,psbc.com
+
+# --- 全国性股份制商业银行 ---
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,cmbimg.com
+DOMAIN-SUFFIX,citicbank.com
+DOMAIN-SUFFIX,cib.com.cn
+DOMAIN-SUFFIX,spdb.com.cn
+DOMAIN-SUFFIX,cmbc.com.cn
+DOMAIN-SUFFIX,cebbank.com
+DOMAIN-SUFFIX,pingan.com
+DOMAIN-SUFFIX,bank.pingan.com
+DOMAIN-SUFFIX,orangebank.com.cn
+DOMAIN-SUFFIX,hxb.com.cn
+DOMAIN-SUFFIX,cgbchina.com.cn
+DOMAIN-SUFFIX,czbank.com
+DOMAIN-SUFFIX,cbhb.com.cn
+DOMAIN-SUFFIX,egbank.com.cn
+
+# --- 重要支付与金融平台 ---
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,antgroup.com
+DOMAIN-SUFFIX,mybank.cn
+DOMAIN-SUFFIX,tenpay.com
+DOMAIN-SUFFIX,unionpay.com
+DOMAIN-SUFFIX,95516.com
+DOMAIN-SUFFIX,unionpayintl.com
+DOMAIN-SUFFIX,cup.com.cn
+
+# --- 城商行/区域性银行 ---
+DOMAIN-SUFFIX,bankofbeijing.com.cn
+DOMAIN-SUFFIX,bankofshanghai.com
+DOMAIN-SUFFIX,jsbchina.cn
+DOMAIN-SUFFIX,nbcb.com.cn
+DOMAIN-SUFFIX,bank-of-tianjin.com.cn
+DOMAIN-SUFFIX,qdccb.com
+DOMAIN-SUFFIX,qlbchina.com
+DOMAIN-SUFFIX,bankofhz.com.cn
+DOMAIN-SUFFIX,bankofchengdu.com
+DOMAIN-SUFFIX,cqcbank.com
+DOMAIN-SUFFIX,sjbank.com.cn
+DOMAIN-SUFFIX,jinzhoubank.com
+DOMAIN-SUFFIX,zzbank.cn
+DOMAIN-SUFFIX,bankofjilin.com.cn
+DOMAIN-SUFFIX,hrbcb.com.cn
+DOMAIN-SUFFIX,hsbank.com.cn
+DOMAIN-SUFFIX,fjnx.com.cn
+DOMAIN-SUFFIX,lzbank.com
+DOMAIN-SUFFIX,bankofnx.com.cn
+DOMAIN-SUFFIX,urumqibank.com.cn
+DOMAIN-SUFFIX,gybank.com.cn
