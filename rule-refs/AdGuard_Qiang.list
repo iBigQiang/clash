@@ -1,5 +1,7 @@
-## 其他 AdGuard / Adblock 广告拦截域名
+!
+! Title: AdBlock Qiang 自定义列表
+! Description: Qiang 自定义的 AdGuard、AdGuardHome 的去广告合并规则。
 
-DOMAIN-SUFFIX,qznovelvod.com
-DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
-DOMAIN-SUFFIX,pglstatp-toutiao.com
+||qznovelvod.com^
+||pangolin-sdk-toutiao.com^
+||pglstatp-toutiao.com^
